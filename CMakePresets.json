@@ -14,6 +14,16 @@
       "inherits": [
         "cfg-enable-option"
       ]
+    },
+    {
+      "name": "dev-win64-msvc",
+      "displayName": "MSVC",
+      "architecture": "x64",
+      "generator": "Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "inherits": [
+        "inherit_some_other_cfg_preset"
+      ]
     }
   ]
 }
