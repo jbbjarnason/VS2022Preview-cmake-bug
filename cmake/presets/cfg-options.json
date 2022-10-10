@@ -1,0 +1,12 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "cfg-enable-option",
+      "hidden": true,
+      "cacheVariables": {
+        "OPTION_SOME": "ON"
+      }
+    }
+  ]
+}
